@@ -276,6 +276,14 @@ public class AdminController {
 		}
 
 	}
+	
+	@GetMapping("/api/admin/testgetdata")
+	public ResponseEntity<?> testgetdata() {
+		
+		return new ResponseEntity<>("success", HttpStatus.OK); 
+		
+	}
+
 
 	/* ---------------Register------------------ */
 	/*
